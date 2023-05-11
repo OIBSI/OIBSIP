@@ -1,0 +1,131 @@
+#font-family: 'Lobster', cursive;
+.container{
+
+	align-items: center;
+	justify-content: center;
+}	
+
+img{
+
+	max-width: 50%;
+	max-height: 30%;
+	float: left;
+	padding-top: 8%;
+}
+#test{
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 10%;
+	float: left;
+	color: whitesmoke;
+
+}
+.navbar{
+	position: absolute;
+	top: 0%;
+	left: 0.1%;
+	display: flex;
+	width: 100%;
+	height: 15%;
+	justify-content: space-between;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: olivedrab;
+
+}
+.logo{
+ font-size: 40px;
+ color: bisque;
+}
+.nav-links{
+	display: flex;
+	align-items: center;
+}
+.nav-links li{
+	margin: 0 30px;
+}
+.menu{
+   color: whitesmoke;
+   text-decoration: underline;
+   font-weight: bold;
+
+
+}
+.test3{
+
+	padding: 8px 15px;
+	background-color: firebrick;
+	border-radius: 30px;
+	color: whitesmoke;
+	object-position: center;
+}
+.section{
+	width: 80%;
+	margin: 80px auto;
+	
+}
+.title{
+	text-align: center;
+	font-size: 4vmin;
+	color: whitesmoke;
+	padding-top: 40%;
+}
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+
+}
+.row .col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row .col img{
+
+	width: 90%;
+	padding-top: 10%;
+}
+.row h3{
+	font-size: 4vmin;
+   color: whitesmoke;
+	margin: 20px auto;
+}
+.row p{
+	color: whitesmoke;
+	font-size: 20px;
+	align-items: center;
+}
+.test5{
+	color: whitesmoke;
+}
+.online{
+	padding: 8px 15px;
+	background-color: firebrick;
+	border-radius: 30px;
+	color: whitesmoke;
+	object-position: center;
+}
+.nav1{
+	width: 100%;
+	height: 50%;
+	color: white;
+	display: flex;
+	justify-content:space-around;
+   align-items: center;
+   padding: 5%;
+   background-color: olivedrab;
+
+}
+.nav1 i{
+  
+	margin: 0 5px;
+	
+}
+.nav1 a{
+	text-decoration: none;
+	color: white;
+    background-color: firebrick;
+   font-size: 20px;
+}
